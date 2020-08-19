@@ -57,6 +57,7 @@ Input Text Color: #000000 */
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
 	color: #0d81ed;
+	text-decoration: none;
 }
 /* END OF SIDEBAR MENU----------------------------------------------------------- */
 
