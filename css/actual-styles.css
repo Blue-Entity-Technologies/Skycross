@@ -9,6 +9,7 @@ Text & Icon Color: #48555D
 White Text Color: #FFFFFF
 Secondary Text Color: #A9ADB0
 Input Text Color: #000000 
+Search: #F2F2F2
 */
 /* --------------------------------------------------- */
 
@@ -45,7 +46,7 @@ form .form-control:placeholder {
 	color: #a9adb0;
 }
 
-.form-control {
+.login {
 	padding: 20px 12px;
 	font-family: "Open Sans", sans-serif;
 	font-weight: 600;
@@ -53,6 +54,17 @@ form .form-control:placeholder {
 	background-color: #e3ebf2;
 	border-radius: 10px !important;
 	border-color: transparent;
+}
+
+.input-search{
+	border-radius: 10px;
+	background-color: #F2F2F2;
+	font-family: "Open Sans", sans-serif;
+	border-color: transparent;
+	font-size: 0.9rem;
+	height: 100%;
+	/* margin: 10px 10px 10px 10px; */
+	padding: 10px 10px 10px 10px;
 }
 
 .label-input {

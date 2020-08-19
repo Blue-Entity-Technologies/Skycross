@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- MD Bootstrap -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet"> -->
     <!-- Icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <!-- Font -->
@@ -30,7 +30,7 @@
     <div>
         <!-- Side navigation -->
         <div class="sidenav">
-            <a href="#" class="brand-mid"><img src="./images/skycross-logo.png" height="80" width="80">
+            <a href="#" class="brand-mid"><img src="./images/cross1.svg" height="80" width="80">
                 <span>skycross</span>
             </a>
             <a href="#" class="a-link"><img src="./images/skycross-logo.png" height="40" width="40"> <span
@@ -48,14 +48,34 @@
         <div class="main">
             <div class="container">
                 <div class="section1">
-                    <h2>Store Inventory</h2>
-                    <form class="form-inline" role="form">
-                        <div class="form-group has-success has-feedback">
-                            <label class="control-label" for="inputSuccess4"></label>
-                            <input type="text" class="form-control" id="inputSuccess4">
-                            <span class="fas fa-search fa-2x"></span>
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <h2>Store Inventory</h2>
                         </div>
-                    </form>
+                        <div class="col-12 col-md-6">
+                            <form action="#">
+                                <div class="row">
+                                    <div class="input-group col">
+                                        <input class="form-control border-white input-search border-right-0" type="search"
+                                            placeholder="Search" id="example-search-input">
+                                        <span class="input-group-append">
+                                            <button class="btn btn-outline-secondary input-search border-left-0 border-white"
+                                                type="button">
+                                                <i class="fa fa-search fa-lg"></i>
+                                            </button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </form>
+                            <!-- <form class="form-inline" role="form">
+                                <div class="form-group has-success has-feedback">
+                                    <label class="control-label" for="inputSuccess4"></label>
+                                    <input type="text" class="form-control" id="inputSuccess4">
+                                    <span class="fas fa-search fa-2x"></span>
+                                </div>
+                            </form> -->
+                        </div>
+                    </div>
                 </div>
                 <div class="row">
                     <div class="col-6">
