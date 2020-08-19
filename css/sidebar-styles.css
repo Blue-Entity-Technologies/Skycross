@@ -61,15 +61,24 @@ Input Text Color: #000000 */
 /* END OF SIDEBAR MENU----------------------------------------------------------- */
 
 /* Style page content */
+
 .main {
 	/* margin-left same as the width of the sidebar */
 	margin-left: 400px;
 	padding: 4% 3%;
 }
+
 .container {
 	padding: 0;
 	margin: 0;
 }
+
+.fa-search {
+	width: 15px;
+	margin: -25px 10px;
+	float: right;
+}
+
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
 	.sidenav {
