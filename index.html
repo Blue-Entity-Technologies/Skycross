@@ -4,18 +4,24 @@
     <meta charset="utf-8">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
-    crossorigin="anonymous">
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Raleway:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <!-- Own CSS -->
     <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
     <title>Skycross</title>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-sm navbar-light bg-white">
         <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
                 <img src="./images/skycross-logo.png" height="60" class="d-inline-block align-top" alt=""
                     loading="lazy">
             </a>
@@ -26,40 +32,48 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
-                    <a class="nav-link active" href="#">Placeholder 1</a>
-                    <a class="nav-link" href="#">Placeholder 2</a>
+                    <!-- <a class="nav-link active" href="#">Placeholder 1</a>
+                    <a class="nav-link" href="#">Placeholder 2</a> -->
                 </div>
             </div>
         </div>
     </nav>
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid banner text-white">
         <div class="container">
-            <h1 class="display-4">Skycross</h1>
+            <h1 class="display-4">Skycross For PHARMACY</h1>
             <p class="lead">[Skycross description here blabla bla Lorem ipsum dolor sit amet ]</p>
         </div>
     </div>
     <div class="container">
         <div class="card mt-3">
             <div class="card-body">
-                <form>
-                    <div class="col">
-                        <h2>LOGIN</h2>
-                    </div>
-
+                <div class="row">
                     <div class="col-6">
-                        <input type="text" id="email" name="email" class="form-control mb-2" placeholder="Email"
-                            required autofocus />
-
-                        <input type="password" id="password" name="password" class="form-control" placeholder="Password"
-                            required />
+                        <h2>PHARMACY LOGIN</h2>
+                        <form action="home.html" method="GET">
+                            <input type="text" id="email" name="email" class="form-control mb-2" placeholder="Email"
+                                required autofocus />
+                            <input type="password" id="password" name="password" class="form-control"
+                                placeholder="Password" required />
+                            <div class="text-right">
+                                <a href="">Forgot password?</a>
+                            </div>
+                            <a href="drugs.html" class="btn btn-warning" type="submit">Login</a>
+                        </form>
                     </div>
-                    <div class="text-right col-6">
-                        <a href="">Forgot password?</a>
+                    <div class="col-6">
+                        <h2>SIGN UP</h2>
+                        <form action="#" method="GET">
+                            <input type="text" id="email" name="email" class="form-control mb-2" placeholder="Email"
+                                required autofocus />
+                            <input type="password" id="password" name="password" class="form-control mb-2"
+                                placeholder="Password" required />
+                            <input type="password" id="conPassword" name="conPassword" class="form-control mb-2"
+                                placeholder="Confirm Password" required />
+                            <a href="#" class="btn btn-primary" type="submit">REGISTER</a>
+                        </form>
                     </div>
-                    <div class="col">
-                        <button class="btn btn-warning" href="./add.html">Login</button>
-                    </div>
-                </form>
+                </div>
             </div>
         </div>
     </div>
@@ -73,6 +87,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,70 @@
+/* -------------------------------------------------- */
+/* Figma Colors:
+Main Color: #0D81ED
+Secondary Color: #E3EBF2
+Tertiary Color: #F8F8F8
+
+Text & Icon Color: #48555D
+White Text Color: #FFFFFF
+Secondary Text Color: #A9ADB0
+Input Text Color: #000000 */
+/* --------------------------------------------------- */
+
+body {
+	background-color: #e3ebf2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 700;
+	color: #48555d;
+}
+
+form .form-control::-webkit-input-placeholder {
+	color: #A9ADB0;
+}
+
+form .form-control:placeholder {
+	color: #A9ADB0;
+}
+
+.form-control {
+	padding: 20px 12px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 600;
+	color: #48555d;
+	background-color: #e3ebf2;
+	border-radius: 10px !important;
+	border-color: transparent;
+}
+
+.label-input {
+	font-family: "Raleway", sans-serif;
+	font-weight: 600;
+	color: #48555d;
+	margin: 5% 0 1% 0;
+}
+
+.brand-big {
+	font-size: 5rem;
+	font-family: "Raleway", sans-serif;
+}
+.card-center-round {
+	border-radius: 25px !important;
+	/* padding-top: 1%; */
+	float: none;
+}
+
+.padding-margin {
+	padding: 5%;
+	margin: 30% auto;
+}
+
+.card-padding {
+	padding: 7%;
+}
