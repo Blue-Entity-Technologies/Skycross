@@ -7,6 +7,8 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
     <!-- Icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <!-- Font -->
@@ -14,19 +16,23 @@
         href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;600;700&display=swap"
         rel="stylesheet">
     <!-- Own CSS -->
-    <link rel="stylesheet" href="css/login-styles.css">
+    <link rel="stylesheet" href="css/actual-styles.css">
     <title>Skycross Login</title>
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row padding-margin">
-            <div class="col my-auto">
+            <div class="col-12 col-md-6 my-auto">
                 <h1 class="brand-big">skycross</h1>
             </div>
-            <div class="col">
+            <div class="col-12 col-md-6">
                 <div class="card card-center-round card-padding">
-                    <h3>Log in</h3>
+                    <h3>
+                        <div class="header-padding">
+                            Log in
+                        </div>
+                    </h3>
                     <form>
                         <div class="form-group">
                             <label for="email" class="label-input">Email</label>
@@ -36,8 +42,9 @@
                             <label for="password" class="label-input">Password</label>
                             <input type="password" class="form-control" id="password" placeholder="•••••••••">
                         </div>
-                        <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
-
+                        <!-- Real button -->
+                        <!-- <button type="submit" class="btn primary float-right">Enter</button> -->
+                        <a href="home.html" class="btn primary float-right">Enter</a>
                     </form>
                 </div>
             </div>
