@@ -14,14 +14,19 @@ body {
 	background-color: #e3ebf2;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-family: "Open Sans", sans-serif;
 	font-weight: 700;
 	color: #48555d;
 }
 
-.header-padding{
-    margin-bottom: 2%;
+.header-padding {
+	margin-bottom: 2%;
 }
 
 form .form-control::-webkit-input-placeholder {
@@ -56,29 +61,36 @@ form .form-control:placeholder {
 .card-center-round {
 	border-radius: 25px !important;
 	/* padding-top: 1%; */
-    float: none;
-    border: transparent;
+	float: none;
+	border: transparent;
 }
 
 .padding-margin {
 	padding: 5%;
-	margin: 30% auto;
+	margin: 5%;
 }
 
 .card-padding {
 	padding: 7%;
+	margin: 7% 15% 7%;
+}
+@media screen and (max-width: 600px) {
+	.card-padding {
+		padding: 7%;
+		margin: 7% 0% 7%;
+	}
 }
 
-.primary{
-    font-family: "Raleway",sans-serif;
-    font-weight: 700;
-    border-radius: 5px;
-    background-color: #0D81ED;
-    color: #FFF;
-    padding: 3% 5%;
+.primary {
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	border-radius: 5px;
+	background-color: #0d81ed;
+	color: #fff;
+	padding: 3% 5%;
 }
 
-.primary:hover{
-    color:#FFF;
-    background-color: #48555D;
+.primary:hover {
+	color: #fff;
+	background-color: #48555d;
 }
