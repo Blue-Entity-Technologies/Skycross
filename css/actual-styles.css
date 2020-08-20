@@ -123,16 +123,13 @@ form .form-control:placeholder {
 	background-color: #48555d;
 }
 
+.hoverable:hover{
+	color: #0d81ed;
+	cursor: pointer;
+}
+
 .brands-colored{
 	color: #0d81ed;
-}
-.primary {
-	font-family: "Raleway", sans-serif;
-	font-weight: 700;
-	border-radius: 5px;
-	background-color: #0d81ed;
-	color: #fff;
-	padding: 3% 5%;
 }
 
 @media screen and (max-width: 1200px) {
