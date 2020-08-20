@@ -72,25 +72,8 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-6 label-input">
+                    <div class="col-12 col-md-6 label-input" id="please-scroll">
                         <p>In Stock</p>
-                        <div class="card mb-3" style="max-width: 540px;">
-                            <div class="row no-gutters">
-                                <div class="col-md-4">
-                                    <img src="..." class="card-img" alt="...">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a
-                                            natural lead-in to additional content. This content is a little bit longer.
-                                        </p>
-                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                         <!-- Amoxicillin Card -->
                         <div class="card mb-3" style="max-width: 540px;">
                             <div class="row no-gutters">
@@ -111,16 +94,16 @@
                                         </p>
                                         <!-- Button trigger modal -->
                                         <div class="row">
-                                            <div class="col my-auto col-auto">
+                                            <!-- <div class="col my-auto col-auto">
                                                 <span class="stock">
                                                     <h5><span class="border-bottom border-danger">400</span>
                                                         pcs in stock</h5>
                                                 </span>
-                                            </div>
+                                            </div> -->
                                             <div class="col">
                                                 <button type="button" class="btn btn-primary" data-toggle="modal"
                                                     data-target="#amoxicillinModal">
-                                                    Edit
+                                                    View and Edit Stock
                                                 </button>
                                             </div>
                                         </div>
@@ -137,6 +120,14 @@
                                                         </button>
                                                     </div>
                                                     <div class="modal-body">
+                                                        <div class="input-group">
+                                                            <button class="button-minus form-control" value="-"
+                                                                data-field="quantity">-</button>
+                                                            <input type="number" class="quantity-field form-control"
+                                                                step="1" min="1" value="400" name="quantity">
+                                                            <button class="button-plus form-control bg-warning"
+                                                                value="+" data-field="quantity">+</button>
+                                                        </div>
                                                         <div class="input-group">
                                                             <button class="button-minus form-control" value="-"
                                                                 data-field="quantity">-</button>
@@ -162,9 +153,222 @@
                             </div>
                         </div>
                         <!-- Amoxicillin Card End -->
+                        <!-- Aspirin Card -->
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row no-gutters">
+                                <div class="col-md-4 my-auto">
+                                    <img src="images/aspirin.jpg" class="card-img" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col">
+                                                <h5 class="card-title">Aspirin</h5>
+                                            </div>
+                                        </div>
+
+                                        <p class="card-text">Acetylsalicylic acid <br> 2-Acetoxybenzoic acid
+                                        </p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                ago</small>
+                                        </p>
+                                        <!-- Button trigger modal -->
+                                        <div class="row">
+                                            <div class="col">
+                                                <button type="button" class="btn btn-primary" data-toggle="modal"
+                                                    data-target="#aspirinModal">
+                                                    View and Edit Stock
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="aspirinModal" tabindex="-1" role="dialog">
+                                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLongTitle">
+                                                            Aspirin Stock</h5>
+                                                        <button type="button" class="close" data-dismiss="modal"
+                                                            aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="input-group">
+                                                            <button class="button-minus form-control" value="-"
+                                                                data-field="quantity">-</button>
+                                                            <input type="number" class="quantity-field form-control"
+                                                                step="1" min="1" value="300" name="quantity">
+                                                            <button class="button-plus form-control bg-warning"
+                                                                value="+" data-field="quantity">+</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary"
+                                                            data-dismiss="modal">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Modal End-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Aspirin Card End -->
+                        <!-- Paracetamol Card -->
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row no-gutters">
+                                <div class="col-md-4 my-auto">
+                                    <img src="images/paracetamol.jpeg" class="card-img" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Paracetamol</h5>
+                                        <p class="card-text">Acetaminophen <br>
+                                            n-(4-hydroxyphenyl)ethanamide
+                                        </p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                ago</small>
+                                        </p>
+                                        <!-- Button trigger modal -->
+                                        <div class="row">
+                                            <div class="col">
+                                                <button type="button" class="btn btn-primary" data-toggle="modal"
+                                                    data-target="#paracetamolModal">
+                                                    View and Edit Stock
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="paracetamolModal" tabindex="-1" role="dialog">
+                                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLongTitle">
+                                                            Amoxicillin Stock</h5>
+                                                        <button type="button" class="close" data-dismiss="modal"
+                                                            aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="input-group">
+                                                            <button class="button-minus form-control" value="-"
+                                                                data-field="quantity">-</button>
+                                                            <input type="number" class="quantity-field form-control"
+                                                                step="1" min="1" value="800" name="quantity">
+                                                            <button class="button-plus form-control bg-warning"
+                                                                value="+" data-field="quantity">+</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-dismiss="modal">Close</button>
+                                                        <button type="button" class="btn btn-primary"
+                                                            data-dismiss="modal">Save
+                                                            changes</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Modal End-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Paracetamol End -->
+                        <!-- Filler card 1-->
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row no-gutters">
+                                <div class="col-md-4 my-auto">
+                                    <img src="images/Acetaminophen-Hydrocodone.jpg" class="card-img" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Acetaminophen / Hydrocodone</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet blalblbl hi blue entity Lorem
+                                            ipsum dolor sit amet blalblbl hi blue entity
+                                        </p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
+                                        </p>
+                                        <!-- Button trigger modal -->
+                                        <div class="row">
+                                            <div class="col">
+                                                <button type="button" class="btn btn-primary" data-toggle="modal"
+                                                    data-target="#paracetamolModal">
+                                                    View and Edit Stock
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Filler card 2 -->
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <img src="..." class="card-img" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a
+                                            natural lead-in to additional content. This content is a little bit longer.
+                                        </p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col">
-                        aw
+                    <div class="col-12 col-md-6 label-input">
+                        <p>Description</p>
+                        <div class="card">
+                            <div class="card-header bg-white">
+                                <div class="row">
+                                    <div class="col">
+                                        <h2>Amoxicillin</h2>
+                                        <h2>Amoxycillin (AAN AU)</h2>
+                                    </div>
+                                </div>
+                                <img src="images/amoxicillin.jpg" width="200px">
+                            </div>
+                            <div class="card-body">
+                                <p>Brands: <span class="brands-colored">Amoxil, Moxatag, Trimox, Apo-Amoxi</span></p>
+                                <p>Drug class(es): aminopenicillins</p>
+                                <p>Amoxicillin systemic is used in the treatment of:</p>
+                                <ul>
+                                    <li>Actinomycosis</li>
+                                    <li>Anthrax Prophylaxis</li>
+                                    <li>Bacterial Endocarditis Prevention</li>
+                                    <li>Bacterial Infection</li>
+                                    <li>Bladder Infection</li>
+                                    <li>Bronchiectasis</li>
+                                    <li>Bronchitis</li>
+                                    <li>Chlamydia Infection</li>
+                                    <li>Cutaneous Bacillus anthracis</li>
+                                    <li>Dental Abscess</li>
+                                    <li>Helicobacter Pylori Infection</li>
+                                    <li>Lyme Disease, Arthritis</li>
+                                    <li>Lyme Disease, Carditis</li>
+                                    <li>Lyme Disease, Erythema Chronicum Migrans</li>
+                                    <li>Lyme Disease, Neurologic</li>
+                                    <li>Otitis Media</li>
+                                    <li>Pneumonia</li>
+                                    <li>Sinusitis</li>
+                                    <li>Skin or Soft Tissue Infection</li>
+                                    <li>Spleen Removal</li>
+                                    <li>Tonsillitis/Pharyngitis</li>
+                                    <li>Upper Respiratory Tract Infection</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
