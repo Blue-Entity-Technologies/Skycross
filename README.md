@@ -1,4 +1,4 @@
-# Skycross
+# Front end for Skycross Pharmacy
 
-<https://blue-entity-technologies.github.io/Skycross/login>
-Front end for Skycross
+<https://blue-entity-technologies.github.io/Skycross/pharmacy-portal>
+
