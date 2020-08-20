@@ -132,6 +132,13 @@ form .form-control:placeholder {
 	color: #0d81ed;
 }
 
+.modal-body .quantity-field{
+	color: black;
+	font-family: "Open Sans",sans-serif;
+	font-weight: 600;
+}
+/* MEDIA QUERIES */
+
 @media screen and (max-width: 1200px) {
 	.card-padding {
 		padding: 7%;
